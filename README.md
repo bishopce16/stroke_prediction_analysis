@@ -94,6 +94,3 @@ Keep the following questions in mind as the machine learning model is developed:
 * How are you training your model?
 * What is the model's accuracy?
 * How does this model work?
-
-## Technology Used 
-
