@@ -15,7 +15,7 @@ Brandon Castro
 
 Data Source: The healthcare-dataset-stroke-data.csv from the [Kaggle Website](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset?resource=download), credit to the author of the dataset fedesoriano.
 
-Tools: Jupyter Notebook, Visual Studio Code, Python, Pandas, Numpy, Supervicsed Machine Learning, Classification Model, PostgreSQL
+Tools: Jupyter Notebook, Visual Studio Code, Python, Pandas, Numpy, Supervised Machine Learning, Classification Model, PostgreSQL
 
 ---
 
