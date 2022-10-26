@@ -67,10 +67,33 @@ SQL steps:
 
 ## Machine Learning Model
 
-Takes in data from the provisional database
-Outputs label for input data
-Keep the following questions in mind as the machine learning model is developed:
-* Which model did you choose and why?
-* How are you training your model?
-* What is the model's accuracy?
-* How does this model work?
+Questions to keep in mind as the machine learning model is developed:<br/>
+
+* Which model did you choose and why?<br/>
+
+    **Scikit-learn's gradient boosting** binary classification model was chosen. This is a supervised machine learning technique that is based on ensemble learning. This model was chosen since it is a powerful technique to build predictive models for classification. The "boosting" ensemble learning method has to do with how the decision trees (weak learners) are sequentially built, converting the weak learners into strong learners, while reducing variance in the process. This model is also useful for reducing bias.<br/>
+
+* How are you training your model?<br/>
+
+    * The following steps will be taken to train model:<br/>
+
+        **1)** The preprocessed data is split into a training and testing dataset using **scikit-learn**'s functionality.<br/>
+
+        **2)** The data will be scaled to have a mean of 0 and standard deviation of 1 using **sci-kit learn**'s functionality.<br/>
+
+        **3)** An instance of **scikit-learn's gradient boosting** model will be created and trained with the training features and target.<br/>
+
+* What is the model's accuracy?<br/>
+
+    To improve the model's accuracy, the following tests may be done:<br/>
+
+    * Testing different learning rates for the gradient boosting model.<br/>
+
+    * Testing different numbers of boosting stages (n_estimators).<br/>
+    * Altering other parameters of the model.<br/>
+
+    * Altering the dataset by binning features or removing features.<br/>
+
+* How does this model work?<br/>
+
+    This is a supervised machine learning technique that is based on ensemble learning. The "boosting" ensemble learning method has to do with how the decision trees (weak learners) are sequentially built, converting the weak learners into stronger learners in each iteration, while reducing variance in the process.<br/>
