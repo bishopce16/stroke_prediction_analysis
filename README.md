@@ -19,17 +19,19 @@ Tools: Jupyter Notebook, Visual Studio Code, Python, Pandas, Numpy, Supervicsed 
 
 ## Technologies Used
 
-## Data Cleaning and Analysis
-Jupyter Notebook/Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
+# Technologies Used
 
-## Database Storage
-PostgreSQL is the database we intend to use, and we will integrate ________ to display the data.
+### Data Cleaning and Analysis
+Jupyter Notebook/Pandas and Matplotlib will be used to clean the data and perform an exploratory analysis. Using to Further analysis will be completed using NumPy Python. 
 
-## Machine Learning
-Supervised Machine Learning and SciKitLearn is the ML library we'll be using to create a Classification Model with a gradient booster.
+### Database Storage
+PostgreSQL is the database we intend to use, and we will integrate Tableau to display the data.
 
-## Dashboard
-In addition to using Tableau Public software, we will also __________ for a fully functioning and interactive dashboard. It will be hosted on Tableau. 
+### Machine Learning
+Python's scikit-learn will be employed to create a supervised machine learning binary classification model using the stroke patient data csv file. The goal is to create a model that is able to determine whether or not a patient is at a high risk of having a stroke based on various characteristics of the patient.
+
+### Dashboard
+Our dashboard will hosted on Tableau Public software, for a fully functioning and interactive dashboard. 
 
 ## Data Cleaning and Analysis
 
