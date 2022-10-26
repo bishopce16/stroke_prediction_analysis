@@ -55,7 +55,7 @@ Tableau Public?
 
 * Questions they hope to answer with the data
     * Can the classification model determine whether or not a patient could have a stroke?
-    * What factors (features) influence whether or not a stroke would occur?
+    * What factors (features) influence whether or not a stroke would occur the most?
 
 ---
 
