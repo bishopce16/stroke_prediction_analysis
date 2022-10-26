@@ -1,5 +1,7 @@
 # stroke_prediction_analysis
 
+An analysis of Supervised Machine Learning for stroke prediction.
+
 ## Group Members: 
 
 Caitlin Bishop,
@@ -11,13 +13,11 @@ Brandon Castro
 
 ## Resources:
 
-Data Source: The healthcare-dataset-stroke-data.csv from the [Kaggle Website](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset?resource=download)
+Data Source: The healthcare-dataset-stroke-data.csv from the [Kaggle Website](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset?resource=download), credit to the author of the dataset fedesoriano.
 
-Tools: Jupyter Notebook, Visual Studio Code, Python, Pandas, Numpy, Supervicsed Machine Learning, Classification Model, PostgreSQL, 
+Tools: Jupyter Notebook, Visual Studio Code, Python, Pandas, Numpy, Supervised Machine Learning, Classification Model, PostgreSQL
 
 ---
-
-## Technologies Used
 
 # Technologies Used
 
@@ -60,12 +60,14 @@ Tableau Public?
     * Stroke Prediction Anaylsis
 
 * Reason they selected the topic
+    * Needs answer
 
 * Description of the source of data
+    * Needs answer
 
 * Questions they hope to answer with the data
     * Can the classification model determine whether or not a patient could have a stroke?
-    * What factors (features) influence whether or not a stroke would occur?
+    * What factors (features) influence whether or not a stroke would occur the most?
 
 ---
 
@@ -92,6 +94,3 @@ Keep the following questions in mind as the machine learning model is developed:
 * How are you training your model?
 * What is the model's accuracy?
 * How does this model work?
-
-## Technology Used 
-
