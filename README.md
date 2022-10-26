@@ -15,7 +15,7 @@ Brandon Castro
 
 Data Source: The healthcare-dataset-stroke-data.csv from the [Kaggle Website](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset?resource=download), credit to the author of the dataset fedesoriano.
 
-Tools: Jupyter Notebook, Visual Studio Code, Python, Pandas, Numpy, Supervised Machine Learning Binary Classification Model, PostgreSQL, and Tableau.
+Tools: Jupyter Notebook, Visual Studio Code, Python, Pandas, Numpy, MatPlotLib, Supervised Machine Learning Binary Classification Model, PostgreSQL, and Tableau.
 
 ---
 
@@ -25,13 +25,7 @@ Tools: Jupyter Notebook, Visual Studio Code, Python, Pandas, Numpy, Supervised M
 Jupyter Notebook, along with Python's Pandas, Numpy and Matplotlib libraries will be used to clean the data and perform an exploratory/statistical analysis. 
 
 ### Database Storage
-Data will be stored in a PostgreSQL database, and a Tableau dashboard will be created to visualize and present data/findings.<br/>
-
-Using PostgreSQL steps include:
-1.	Parse main csv dataframe into 3+ smaller dataframes
-2.	use the to_csv() method to export new dataframes into csv files.
-3.	import all csv's into pgAdmin
-4.	assign primary and foreign keys to columns for each table.
+Data will be stored in a PostgreSQL database, and a Tableau dashboard will be created to visualize and present data/findings.
 
 ### Machine Learning
 Python's scikit-learn will be employed to create a supervised machine learning binary classification model using the stroke patient data csv file. The goal is to create a model that is able to determine whether or not a patient is at a high risk of having a stroke based on various characteristics of the patient.
@@ -64,11 +58,10 @@ Our dashboard will hosted on Tableau Public software, for a fully functioning an
 * Description of the communication protocols
 
 ## Database Integration 
-Sample data that mimics the expected final database structure or schema
-Draft machine learning model is connected to the provisional database
+Sample data that mimics the expected final database structure or schema. <br/>
 SQL steps:
 1.	Parse main csv dataframe into 3+ smaller dataframes
-2.	use the to_csv() method to export new dataframes into csv files.
+2.	use the Pandas to_csv() method to export new dataframes into csv files.
 3.	import all csv's into pgAdmin
 4.	assign primary and foreign keys to columns for each table.
 
