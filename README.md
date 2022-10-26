@@ -90,6 +90,8 @@ The csv dataset will be read in as a Pandas dataframe which will be used for the
 
     To improve the model's accuracy, the following tests may be done:<br/>
 
+    * Oversampling the target vector using imbalanced-learn's RandomOverSampler since there are much more non-stroke patients in dataset than stroke patients.<br/>
+
     * Testing different learning rates for the gradient boosting model.<br/>
 
     * Testing different numbers of boosting stages (n_estimators).<br/>
