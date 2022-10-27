@@ -1,4 +1,4 @@
-# stroke_prediction_analysis
+# Stroke Prediction Analysis
 
 In this project, a dataset containing 11 clinical features for patients that classifies whether or not they have had a stroke will be analyzed. The purpose of this project is to derive insight on characteristics and statistics regarding these patients and to see which factors influence whether or not a patient has had a stroke. 
 
