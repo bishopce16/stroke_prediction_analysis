@@ -17,7 +17,7 @@ Data Source: The healthcare-dataset-stroke-data.csv from the [Kaggle Website](ht
 
 Tools: Jupyter Notebook, Visual Studio Code, Python, Pandas, Numpy, MatPlotLib, Supervised Machine Learning Binary Classification Model, PostgreSQL, and Tableau.<br/>
 
-# Technologies Used
+## Technologies Used
 
 ### Data Cleaning and Analysis
 Jupyter Notebook, along with Python's Pandas, Numpy and Matplotlib libraries will be used to clean the data and perform an exploratory/statistical analysis. 
