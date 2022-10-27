@@ -31,6 +31,8 @@ Python's scikit-learn will be employed to create a supervised machine learning b
 ### Dashboard
 Our dashboard will hosted on Tableau Public software, for a fully functioning and interactive dashboard. 
 
+[Stroke Prediction Analysis Link](https://public.tableau.com/views/StrokePredictionAnalysis_16668772726720/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
+
 # Segment 1:
 
 ## Presentation 
