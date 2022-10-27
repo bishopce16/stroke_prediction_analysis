@@ -29,7 +29,7 @@ Data will be stored in a PostgreSQL database, and a Tableau dashboard will be cr
 Python's scikit-learn will be employed to create a supervised machine learning binary classification model using the stroke patient data csv file. The goal is to create a model that is able to determine whether or not a patient is at a high risk of having a stroke based on various characteristics of the patient.
 
 ### Dashboard
-Our dashboard will hosted on Tableau Public software, for a fully functioning and interactive dashboard. 
+Our dashboard will be hosted on Tableau Public software, for a fully functioning and interactive dashboard. 
 
 [Stroke Prediction Analysis Dashboard Link](https://public.tableau.com/views/StrokePredictionAnalysis_16668772726720/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
