@@ -4,14 +4,14 @@ In this project, a dataset containing 11 clinical features for patients that cla
 
 ---
 
-## Group Members: 
+## Group Members 
 
 Caitlin Bishop,
 Alex Borden,
 Andrew Carlson,
 Brandon Castro
 
-## Resources:
+## Resources
 
 Data Source: The healthcare-dataset-stroke-data.csv from the [Kaggle Website](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset?resource=download), credit to the author of the dataset fedesoriano.
 
@@ -34,6 +34,13 @@ Our dashboard will be hosted on Tableau Public software, for a fully functioning
 [Stroke Prediction Analysis Dashboard Link](https://public.tableau.com/views/StrokePredictionAnalysis_16668813805820/GenderAge?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 # Segment 1:
+
+### **Roles:** 
+
+* Caitlin Bishop: Square
+* Alex Borden: X
+* Andrew Carlson: Triangle 
+* Brandon Castro: Circle
 
 ## Presentation 
 
@@ -70,7 +77,7 @@ SQL steps:
 ---
 
 ## Machine Learning Model
-The csv dataset will be read in as a Pandas dataframe which will be used for the machine learning model. The output for the model will be the prediction of whether or not the patient had a stroke. As mentioned above, the goal is to create a model that is able to determine whether or not a patient is at a high risk of having a stroke based on the features of the patient in the dataset. If the output for a patient states that they had a stroke, then the patient may have a high risk of having a stroke according to their features.<br/>
+The csv dataset will be read in as a Pandas dataframe and will be used for the machine learning model. The output for the model will be the prediction of whether or not the patient had a stroke. As mentioned above, the goal is to create a model that is able to determine whether or not a patient is at a high risk of having a stroke based on the features of the patient in the dataset. If the output for a patient states that they had a stroke, then the patient may have a high risk of having a stroke according to their features.<br/>
 
 ### Questions to keep in mind as the machine learning model is developed:<br/>
 
