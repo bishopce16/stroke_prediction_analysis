@@ -120,3 +120,44 @@ The csv dataset will be read in as a Pandas dataframe and will be used for the m
 * Alex Borden: X
 * Andrew Carlson: Square 
 * Brandon Castro: Circle
+
+## Machine Learning Model
+
+* **Description of preliminary data preprocessing:**<br/>
+
+    * Steps taken:<br/>
+
+        1) csv dataset was read in a Pandas dataframe.
+        2) "id" column was dropped since machine learning model cannot learn anything valuable from this.
+        3) Categorical columns were converted to binary numerical columns using the Pandas get_dummies() function. 
+        4) Columns that were of the "float" data type were converted into integers.
+        5) Rows with null values were removed.
+        6) A csv containing data prepared for machine learning model was exported to resources file.<br/><br/>
+        
+* **Description of preliminary feature engineering and preliminary feature selection, including the decision-making process:**<br/>
+
+    As stated previously, any unnecessary features were removed so that the model was not inaccurately skewed. Categorical features were also converted to numerical data and spread out into binary columns using the Pandas get_dummies() function<br/> 
+    
+    The decision-making process was conducted as follows:<br/>
+
+    1) Selecting features that contribute to a more accurate model and contains valuable information.
+    2) Checking if categorical features have many unique values that can be binned (this was not the case since all categorical features had less than 10 unique values).
+    3) Checking the datatype of each feature to see if any are not numerical, since the machine learning model requires numerical features as inputs.<br/><br/>
+
+* **Description of how data was split into training and testing sets:**<br/>
+
+    * Steps taken:<br/>
+
+        1) An object for both features and target vector were created.
+        2) sklearn's train_test_split function was used to separate the data into training and testing dataset with a split of 75% training data and 25% testing data. Stratification was applied so there was an equal ratio of the target categories in both training and testing data.
+        3) Data was over-sampled using imbalanced-learn's RandomOverSampler since there was a discrepancy between the target categories i.e. patients that had a stroke made up only 4.3% of the dataset. 
+        4) Data was scaled using sklearn's StandardScaler to give features a normalized statistical distribution since the machine learning model would behave better when working with all normalized data.<br/><br/>
+
+* **Explanation of model choice, including limitations and benefits:**<br/>
+
+    
+    **Scikit-learn's gradient boosting** binary classification model was chosen. This is a supervised machine learning technique that is based on ensemble learning. This model was chosen since it is a powerful technique to build predictive models for classification.<br/> 
+    
+    The "boosting" ensemble learning method has to do with how the decision trees (weak learners) of features are sequentially built, converting the weak learners into strong learners, while reducing variance in the process. This model is also beneficial in that it reduces bias well.<br/> 
+
+    One of the limitations of using the gradient boosting model is that it does not handle outliers as well as other models and it is prone to overfitting, so different parameters must be tested to create a reliable model.<br/>
