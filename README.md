@@ -37,10 +37,12 @@ Our dashboard will be hosted on Tableau Public software, for a fully functioning
 
 ### **Roles:** 
 
+
 * Caitlin Bishop: GitHub/Data Cleaning
 * Alex Borden: Technology/Dashboard
 * Andrew Carlson: Machine Learning Model 
 * Brandon Castro: SQL-based Database
+
 
 ## Presentation 
 
@@ -120,6 +122,7 @@ The csv dataset will be read in as a Pandas dataframe and will be used for the m
 * Alex Borden: Technology/Dashboard
 * Andrew Carlson: Machine Learning Model  
 * Brandon Castro: SQL-based Database
+
 
 ## Machine Learning Model
 
