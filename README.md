@@ -3,11 +3,6 @@
 In this project, a dataset containing 11 clinical features for patients that classifies whether or not they have had a stroke will be analyzed. The purpose of this project is to derive insight on characteristics and statistics regarding these patients and to see which factors influence whether or not a patient has had a stroke. 
 
 ---
-## Communication
-
-Initial team meeting via Zoom. Discussued project requirements and assigned individual responsibilities.
-Weekly team meetings via Zoom occur twice per week during our scheduled class time.
-Team communication via Slack as needed to update team members of progress and to ask for assistance.
 
 ## Group Members 
 
