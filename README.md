@@ -2,6 +2,12 @@
 
 An analysis of Supervised Machine Learning for stroke prediction.
 
+## Communication
+
+Initial team meeting via Zoom. Discussued project requirements and assigned individual responsibilities.
+Weekly team meetings via Zoom occur twice per week during our scheduled class time.
+Team communication via Slack as needed to update team members of progress and to ask for assistance.
+
 ## Group Members: 
 
 Caitlin Bishop,
