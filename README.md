@@ -38,11 +38,11 @@ Our dashboard will be hosted on Tableau Public software, for a fully functioning
 ### **Roles:** 
 
 
+
 * Caitlin Bishop: GitHub/Data Cleaning
 * Alex Borden: Technology/Dashboard
 * Andrew Carlson: Machine Learning Model 
 * Brandon Castro: SQL-based Database
-
 
 ## Presentation 
 
@@ -115,13 +115,6 @@ The csv dataset will be read in as a Pandas dataframe and will be used for the m
     This is a supervised machine learning technique that is based on ensemble learning. The "boosting" ensemble learning method has to do with how the decision trees (weak learners) are sequentially built, converting the weak learners into stronger learners in each iteration, while reducing variance in the process.<br/>
 
 # Segment 2
-
-### **Roles:** 
-
-* Caitlin Bishop: GitHub/Data Analysis
-* Alex Borden: Technology/Dashboard
-* Andrew Carlson: Machine Learning Model  
-* Brandon Castro: SQL-based Database
 
 
 ## Machine Learning Model
