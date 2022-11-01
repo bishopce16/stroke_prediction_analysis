@@ -55,7 +55,7 @@ Our dashboard will be hosted on Tableau Public software, for a fully functioning
     * Stroke predection was a topic we could all relate to becasue of our in-common knowledge/backround of the healthcare space. 
 
 * Description of the source of data
-    * The data contains 11 clinical features regarding medical patients including patient id, gender, age, hypertension status,	heart disease status, marital status, employment type, residence type, average glucose levels, body mass index(BMI), and smoking status. There is also a target vector that states whether or not a given patient has ahd a stroke.
+    * The data contains 11 clinical features regarding medical patients including patient id, gender, age, hypertension status,	heart disease status, marital status, employment type, residence type, average glucose levels, body mass index(BMI), and smoking status. There is also a target vector that states whether or not a given patient has had a stroke.
 
 * Questions they hope to answer with the data
     * Can the classification model determine whether or not a patient could have a stroke?
