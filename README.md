@@ -44,13 +44,15 @@ Our dashboard will be hosted on Tableau Public software, for a fully functioning
 * Andrew Carlson: Machine Learning Model 
 * Brandon Castro: SQL-based Database
 
-## Presentation 
+## Presentation
+
+[Link to Presentation on Google Slides](https://docs.google.com/presentation/d/1cDEaOqquFxIjPL7FS63isOqBU7swg3fR8Z7BzpkdH48/edit?usp=sharing)
 
 * Selected topic
     * Stroke Prediction Anaylsis
 
 * Reason they selected the topic
-    * Needs answer
+    * Stroke predection was a topic we could all relate to becasue of our in-common knowledge/backround of the healthcare space. 
 
 * Description of the source of data
     * The data contains 11 clinical features regarding medical patients including patient id, gender, age, hypertension status,	heart disease status, marital status, employment type, residence type, average glucose levels, body mass index(BMI), and smoking status. There is also a target vector that states whether or not a given patient has ahd a stroke.
