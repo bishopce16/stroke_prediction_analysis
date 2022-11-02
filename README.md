@@ -60,6 +60,7 @@ Our dashboard will be hosted on Tableau Public software, for a fully functioning
 * Questions they hope to answer with the data
     * Can the classification model determine whether or not a patient could have a stroke?
     * What factors (features) influence whether or not a stroke would occur the most?
+    * From data analysis can we find the who is most susceptible to getting a stroke? 
 
 ---
 
