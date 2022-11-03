@@ -33,8 +33,6 @@ Our dashboard will be hosted on Tableau Public software, for a fully functioning
 
 [Stroke Prediction Analysis Dashboard Link](https://public.tableau.com/views/StrokePredictionAnalysis_16668813805820/GenderAge?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-# Segment 1
-
 ### **Roles:** 
 
 
@@ -43,6 +41,10 @@ Our dashboard will be hosted on Tableau Public software, for a fully functioning
 * Alex Borden: Technology/Dashboard
 * Andrew Carlson: Machine Learning Model 
 * Brandon Castro: SQL-based Database
+
+
+# Segment 1
+
 
 ## Presentation
 
