@@ -163,7 +163,7 @@ The csv dataset will be read in as a Pandas dataframe and will be used for the m
     
 ## Dashboard 
 
-We will be utilizing Tableau Public to to create a story based dashboard as well as an interactive dashboard. 
+We will be utilizing Tableau Public to create a story based dashboard in combination with an interactive dashboard. 
 
 Here is a sneak peak of the story points we will using inside Tableau. 
 
