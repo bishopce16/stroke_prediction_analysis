@@ -160,3 +160,19 @@ The csv dataset will be read in as a Pandas dataframe and will be used for the m
     The "boosting" ensemble learning method has to do with how the decision trees (weak learners) of features are sequentially built, converting the weak learners into strong learners, while reducing variance in the process. This model is also beneficial in that it reduces bias well.<br/> 
 
     One of the limitations of using the gradient boosting model is that it does not handle outliers as well as other models and it is prone to overfitting, so different parameters must be tested to create a reliable model.<br/>
+    
+## Dashboard 
+
+We will be utilizing Tableau Public to to create a story based dashboard as well as an interactive dashboard. 
+
+Here is a sneak peak of the story points we will using inside Tableau. 
+
+### BMI Calculator 
+
+<img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/BMI%20%26%20Glucose%20Calculator%20.png"  width="60%" height="30%">
+
+### Age vs Stroke
+
+<img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Age%20vs%20Stroke.png"  width="60%" height="30%">
+
+The interactive dashboard will include multiple filters for identifying trends in the stroke dataset. 
