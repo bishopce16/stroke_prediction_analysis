@@ -54,15 +54,15 @@ Our dashboard will be hosted on Tableau Public software, for a fully functioning
     * Stroke Prediction Anaylsis
 
 * Reason they selected the topic
-    * Stroke predection was a topic we could all relate to becasue of our in-common knowledge/backround of the healthcare space. 
+    * Stroke predection was the topic chosen because of our common background/interest in the healthcare field. 
 
 * Description of the source of data
     * The data contains 11 clinical features regarding medical patients including patient id, gender, age, hypertension status,	heart disease status, marital status, employment type, residence type, average glucose levels, body mass index(BMI), and smoking status. There is also a target vector that states whether or not a given patient has had a stroke.
 
 * Questions they hope to answer with the data
     * Can the classification model determine whether or not a patient could have a stroke?
-    * What factors (features) influence whether or not a stroke would occur the most?
-    * From data analysis can we find the who is most susceptible to getting a stroke? 
+    * What factors influence whether or not a stroke would occur the most?
+    * Through our analysis, can we find who is most susceptible to getting a stroke? 
 
 ---
 
@@ -92,7 +92,7 @@ The csv dataset will be read in as a Pandas dataframe and will be used for the m
 
 ## Machine Learning Model
 
-See the gradient_boosting_model.ipynb file in the machine_learning folder for a description of data preprocessing, feature engineering, feature selection, data splitting for training/testing of model, and gradient boosting model creation.  
+See the [gradient_boosting_model.ipynb](https://github.com/bishopce16/stroke_prediction_analysis/blob/main/Machine_Learning/gradient_boosting_model.ipynb) file in the [machine_learning](https://github.com/bishopce16/stroke_prediction_analysis/tree/main/Machine_Learning) folder for a description of data preprocessing, feature engineering, feature selection, data splitting for training/testing of model, and gradient boosting model creation.  
     
 ## Dashboard 
 
