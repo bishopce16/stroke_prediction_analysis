@@ -54,7 +54,7 @@ Our dashboard will be hosted on Tableau Public software, for a fully functioning
     * Stroke Prediction Anaylsis
 
 * Reason they selected the topic
-    * Stroke predection was the topic chosen because of our common background/interest in the healthcare field. 
+    * Stroke prediction was the topic chosen because of our common background/interest in the healthcare field. 
 
 * Description of the source of data
     * The data contains 11 clinical features regarding medical patients including patient id, gender, age, hypertension status,	heart disease status, marital status, employment type, residence type, average glucose levels, body mass index(BMI), and smoking status. There is also a target vector that states whether or not a given patient has had a stroke.
