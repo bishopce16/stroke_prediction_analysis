@@ -108,4 +108,11 @@ Here is a sneak peak of the story points we will using inside Tableau.
 
 <img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Age%20vs%20Stroke.png"  width="60%" height="30%">
 
-The interactive dashboard will include multiple filters for identifying trends in the stroke dataset. 
+### Stroke Percentage of Marital Status 
+
+<img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Ever%20married%20before.png" width="60%" height="30%">
+
+## Interactive Dashboard 
+
+The interactive dashboard will also be created in Tableau include multiple filters for identifying trends in the stroke dataset. 
+
