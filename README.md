@@ -20,7 +20,7 @@ Tools: Jupyter Notebook, Visual Studio Code, Python, Pandas, Numpy, MatPlotLib, 
 ## Technologies Used
 
 ### Data Cleaning and Analysis
-Jupyter Notebook, along with Python's Pandas, Numpy and Matplotlib libraries will be used to clean the data and perform an exploratory/statistical analysis. 
+Jupyter Notebook, along with Python's Pandas, Numpy, and seaborn libraries will be used to clean the data and perform an exploratory/statistical analysis. 
 
 ### Database Storage
 Data will be stored in a PostgreSQL database, and a Tableau dashboard will be created to visualize and present data/findings.
@@ -39,7 +39,7 @@ Our dashboard will be hosted on Tableau Public software, for a fully functioning
 
 
 
-* Caitlin Bishop: GitHub/Data Cleaning
+* Caitlin Bishop: GitHub/Data Cleaning/Exploratory Analysis
 * Alex Borden: Technology/Dashboard
 * Andrew Carlson: Machine Learning Model 
 * Brandon Castro: SQL-based Database
