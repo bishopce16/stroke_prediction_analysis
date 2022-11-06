@@ -114,5 +114,5 @@ Here is a sneak peak of the story points we will using inside Tableau.
 
 ## Interactive Dashboard 
 
-The interactive dashboard will also be created in Tableau include multiple filters for identifying trends in the stroke dataset. 
+The interactive dashboard will also be created in Tableau including multiple filters for identifying trends in the stroke dataset. 
 
