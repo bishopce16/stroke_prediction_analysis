@@ -114,11 +114,21 @@ Here is a sneak peak of the story points we will using inside Tableau.
 
 ## Interactive Dashboard 
 
-The interactive dashboard will also be created in Tableau including multiple filters for identifying trends in the stroke dataset.
+Our interactive dashboard created in Tableau including multiple filters for identifying trends in the stroke dataset includes the following:
+
+* Averages
+* Age & Stroke
+* Gender & Work Type 
+* Heart Disease and Hypertension
+* Impact of Marriage 
+* Impact of Residence Type
+* Impact of Smoking Status
+* BMI & Glucose Calculators
+
 
 [Stroke Prediction Analysis Dashboard Link](https://public.tableau.com/views/StrokePredictionInteractiveDashboard/StrokePredictionInteractiveDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
-<img src="">
+<img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Stroke%20Prediction%20Interactive%20Dashboard%20Tableau%20.png"  width="60%" height="30%">
 
 
 
