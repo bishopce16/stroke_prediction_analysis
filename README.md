@@ -112,7 +112,7 @@ Here is a sneak peak of the story points we will using inside Tableau.
 
 ## Interactive Dashboard 
 
-Our interactive dashboard created in Tableau including multiple filters for identifying trends in the stroke dataset includes the following:
+Our interactive dashboard created in Tableau includes 8 different correlations for identifying trends in the stroke dataset includes the following:
 
 * Averages
 * Age & Stroke
@@ -123,7 +123,7 @@ Our interactive dashboard created in Tableau including multiple filters for iden
 * Impact of Smoking Status
 * BMI & Glucose Calculators
 
-This dashboard is fully functional with multiple filters to identify trends of stroke predictions in 8 separate areas of study.
+This dashboard is fully functional with Gender/Work Type bar chart that identifies trends of stroke predictions in Male and Females.
 
 <img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Stroke%20Prediction%20Interactive%20Dashboard%20Tableau%20.png"  width="90%" height="10%">
 
