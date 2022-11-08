@@ -31,7 +31,7 @@ Python's scikit-learn will be employed to create a supervised machine learning b
 ### Dashboard
 Our dashboard will be hosted on Tableau Public software, for a fully functioning and interactive dashboard. 
 
-[Stroke Prediction Analysis Dashboard Link](https://public.tableau.com/views/StrokePredictionAnalysis_16668813805820/GenderAge?:language=en-US&:display_count=n&:origin=viz_share_link)
+[Stroke Prediction Analysis Story Link](https://public.tableau.com/views/StrokePredictionAnalysisStory/StrokePredictionAnalysisStory?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 ### **Roles:** 
 
@@ -114,5 +114,11 @@ Here is a sneak peak of the story points we will using inside Tableau.
 
 ## Interactive Dashboard 
 
-The interactive dashboard will also be created in Tableau including multiple filters for identifying trends in the stroke dataset. 
+The interactive dashboard will also be created in Tableau including multiple filters for identifying trends in the stroke dataset.
+
+[Stroke Prediction Analysis Dashboard Link](https://public.tableau.com/views/StrokePredictionInteractiveDashboard/StrokePredictionInteractiveDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
+<img src="">
+
+
 
