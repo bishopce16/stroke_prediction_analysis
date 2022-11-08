@@ -29,13 +29,9 @@ Data will be stored in a PostgreSQL database, and a Tableau dashboard will be cr
 Python's scikit-learn will be employed to create a supervised machine learning binary classification model using the stroke patient data csv file. The goal is to create a model that is able to determine whether or not a patient is at a high risk of having a stroke based on various characteristics of the patient.
 
 ### Dashboard
-Our dashboard will be hosted on Tableau Public software, for a fully functioning and interactive dashboard. 
-
-[Stroke Prediction Analysis Story Link](https://public.tableau.com/views/StrokePredictionAnalysisStory/StrokePredictionAnalysisStory?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+Our dashboard will be hosted on Tableau Public software, to create a fully functioning and interactive dashboard and story. 
 
 ### **Roles:** 
-
-
 
 * Caitlin Bishop: GitHub/Data Cleaning/Exploratory Analysis
 * Alex Borden: Technology/Dashboard
@@ -94,9 +90,11 @@ The csv dataset will be read in as a Pandas dataframe and will be used for the m
 
 See the [gradient_boosting_model.ipynb](https://github.com/bishopce16/stroke_prediction_analysis/blob/main/Machine_Learning/gradient_boosting_model.ipynb) file in the [machine_learning](https://github.com/bishopce16/stroke_prediction_analysis/tree/main/Machine_Learning) folder for a description of data preprocessing, feature engineering, feature selection, data splitting for training/testing of model, and gradient boosting model creation.  
     
-## Dashboard 
+## Story & Dashboard 
 
 We will be utilizing Tableau Public to create a story based dashboard in combination with an interactive dashboard. 
+
+[Stroke Prediction Analysis Story Link](https://public.tableau.com/views/StrokePredictionAnalysisStory/StrokePredictionAnalysisStory?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 Here is a sneak peak of the story points we will using inside Tableau. 
 
