@@ -123,7 +123,7 @@ Our interactive dashboard created in Tableau includes 8 different correlations f
 * Impact of Smoking Status
 * BMI & Glucose Calculators
 
-This dashboard is fully functional with Gender/Work Type bar chart that identifies trends of stroke predictions in Male and Females.
+This dashboard is fully functional with a Gender & Work Type bar chart that identifies trends of stroke predictions in Male and Females.
 
 <img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Stroke%20Prediction%20Interactive%20Dashboard%20Tableau%20.png"  width="90%" height="10%">
 
