@@ -2,6 +2,7 @@
 
 In this project, a dataset containing 11 clinical features for patients that classifies whether or not they have had a stroke will be analyzed. The purpose of this project is to derive insight on characteristics and statistics regarding these patients and to see which factors influence whether or not a patient has had a stroke. 
 
+
 <img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/READMe%20Backround%20Image.png"  width="75%" height="25%">
 
 
@@ -90,6 +91,7 @@ SQL steps:
 ---
 
 ## Machine Learning Model
+
 The csv dataset will be read in as a Pandas dataframe and will be used for the machine learning model. The output for the model will be the prediction of whether or not the patient had a stroke. As mentioned above, the goal is to create a model that is able to determine whether or not a patient is at a high risk of having a stroke based on the features of the patient in the dataset. If the output for a patient state that they had a stroke, then the patient may have a high risk of having a stroke according to their features.<br/>
 
 # Segment 2
@@ -136,3 +138,4 @@ This dashboard is fully functional with a Gender & Work Type bar chart that iden
 <img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Stroke%20Prediction%20Interactive%20Dashboard%20Tableau%20.png"  width="90%" height="10%">
 
 [Stroke Prediction Analysis Dashboard Link](https://public.tableau.com/views/StrokePredictionInteractiveDashboard/StrokePredictionInteractiveDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
