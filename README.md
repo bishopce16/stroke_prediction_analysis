@@ -110,15 +110,15 @@ Here is a sneak peak of the story points we will using inside Tableau.
 
 ### BMI Calculator 
 
-<img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/BMI%20%26%20Glucose%20Calculator%20.png"  width="60%" height="30%">
+<img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/BMI%20%26%20Glucose%20Calculator%20.png"  width="50%" height="10%">
 
 ### Age vs Stroke
 
-<img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Age%20vs%20Stroke.png"  width="60%" height="30%">
+<img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Age%20vs%20Stroke.png"  width="50%" height="10%">
 
 ### Stroke Percentage of Marital Status 
 
-<img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Ever%20married%20before.png" width="60%" height="30%">
+<img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Ever%20married%20before.png" width="50%" height="10%">
 
 ## Interactive Dashboard 
 
@@ -135,7 +135,7 @@ Our interactive dashboard created in Tableau includes 8 different correlations f
 
 This dashboard is fully functional with a Gender & Work Type bar chart that identifies trends of stroke predictions in Male and Females.
 
-<img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Stroke%20Prediction%20Interactive%20Dashboard%20Tableau%20.png"  width="90%" height="10%">
+<img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Stroke%20Prediction%20Interactive%20Dashboard%20Tableau%20.png"  width="70%" height="20%">
 
 [Stroke Prediction Analysis Dashboard Link](https://public.tableau.com/views/StrokePredictionInteractiveDashboard/StrokePredictionInteractiveDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
@@ -144,3 +144,20 @@ This dashboard is fully functional with a Gender & Work Type bar chart that iden
 ## Machine Learning Model
 
 See the [gradient_boosting_model.ipynb](https://github.com/bishopce16/stroke_prediction_analysis/blob/main/Machine_Learning/gradient_boosting_model.ipynb) file in the [machine_learning](https://github.com/bishopce16/stroke_prediction_analysis/tree/main/Machine_Learning) folder for optimization methods used for the model, results after optimization, determination of feature importances, and conclusion of the machine learning analysis.
+
+## Dashboard/Story 
+
+Finalized the Dashboard/Story and added Exploratory Analysis and Machine Learning to the show importance within the Tableau story. 
+
+### Exploratory Analysis
+
+<img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Tableau%20Exploratory%20Analysis.png"  width="60%" height="25%">
+
+### Machine Learning
+
+<img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Tableau%20Machine%20Learning.png"  width="60%" height="25%">
+
+### Finalized Dashboard
+
+<img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Stroke%20Prediction%20Interactive%20Dashboard%20Tableau%20Finalized.png"  width="80%" height="25%">
+
