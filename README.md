@@ -139,3 +139,8 @@ This dashboard is fully functional with a Gender & Work Type bar chart that iden
 
 [Stroke Prediction Analysis Dashboard Link](https://public.tableau.com/views/StrokePredictionInteractiveDashboard/StrokePredictionInteractiveDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
+# Segment 3
+
+## Machine Learning Model
+
+See the [gradient_boosting_model.ipynb](https://github.com/bishopce16/stroke_prediction_analysis/blob/main/Machine_Learning/gradient_boosting_model.ipynb) file in the [machine_learning](https://github.com/bishopce16/stroke_prediction_analysis/tree/main/Machine_Learning) folder for optimization methods used for the model, results after optimization, determination of feature importances, and conclusion of the machine learning analysis.
