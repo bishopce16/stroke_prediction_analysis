@@ -1,82 +1,42 @@
 
 BEGIN;
 
-
-CREATE TABLE IF NOT EXISTS public."Residence_type"
-(
-    index bigint,
-    "Residence_type" text
+CREATE TABLE Stroke_analysis (
+	id INT PRIMARY KEY,
+	gender VARCHAR(6),
+	age NUMERIC,
+	hypertension INT,
+	heart_disease INT,
+	ever_married VARCHAR(3), 
+	work_type VARCHAR(20), 
+	Residence_type VARCHAR(10), 
+	avg_glucose_level NUMERIC, 
+	bmi VARCHAR(10), 
+	smoking_status VARCHAR(20), 
+	stroke INT 
 );
 
-CREATE TABLE IF NOT EXISTS public.ever_married
-(
-    index bigint,
-    ever_married text
-);
-
-CREATE TABLE IF NOT EXISTS public.gender
-(
-    index bigint,
-    gender text
-);
-
-CREATE TABLE IF NOT EXISTS public.heart_disease
-(
-    index bigint,
-    heart_disease bigint
-);
-
-CREATE TABLE IF NOT EXISTS public.hypertension
-(
-    index bigint,
-    hypertension bigint,
-    PRIMARY KEY (index)
-);
-
-CREATE TABLE IF NOT EXISTS public.patientinfo
-(
-    index bigint,
-    gender text,
-    age double precision,
-    hypertension bigint,
-    heart_disease bigint,
-    ever_married text,
-    work_type text,
-    "Residence_type" text,
-    avg_glucose_level double precision,
-    bmi double precision,
-    smoking_status text,
-    stroke bigint
-);
-
-CREATE TABLE IF NOT EXISTS public.smoking_status
-(
-    index bigint,
-    smoking_status text
-);
-
-CREATE TABLE IF NOT EXISTS public.stroke_data
-(
-    index bigint,
-    gender bigint,
-    age double precision,
-    hypertension bigint,
-    heart_disease bigint,
-    ever_married bigint,
-    work_type bigint,
-    "Residence_type" bigint,
-    avg_glucose_level double precision,
-    bmi double precision,
-    smoking_status bigint,
-    stroke bigint,
-    PRIMARY KEY (index)
-);
-
-CREATE TABLE IF NOT EXISTS public.work_type
-(
-    index bigint,
-    work_type text
-);
+CREATE TABLE Demographic_features (
+	id INT PRIMARY KEY,
+	gender VARCHAR(6),
+	age NUMERIC,
+	ever_married VARCHAR(3),
+	work_type VARCHAR(20),
+	residence_type VARCHAR(10),
+	stroke INT 
+	);
+ 
+CREATE TABLE Biological_features (
+	id INT PRIMARY KEY,
+	gender VARCHAR(6),
+	age NUMERIC,
+	hypertension INT,
+	heart_disease INT,
+	avg_glucose_level NUMERIC,
+	bmi VARCHAR(10),
+	smoking_status VARCHAR(20),
+	stroke INT
+	);
 
 ALTER TABLE public.stroke_data
     ADD FOREIGN KEY (gender)
