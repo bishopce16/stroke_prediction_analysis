@@ -147,7 +147,7 @@ See the [gradient_boosting_model.ipynb](https://github.com/bishopce16/stroke_pre
 
 ## Dashboard/Story 
 
-Finalized the Dashboard/Story and added Exploratory Analysis and Machine Learning to the show importance within the Tableau story. 
+Finalized the Dashboard/Story and added Exploratory Analysis and Machine Learning to show importance within the Tableau story. 
 
 ### Exploratory Analysis
 
