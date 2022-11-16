@@ -4,11 +4,13 @@
 ## Tools used:
 Jupyter Notebook, Visual Studio Code, Python, Numpy, Pandas, Matplotlib, Seaborn, and Google Slides. 
 
+## Technology/Dashboard
+## Tools used:
 
 
+## Machine Learning Model
+## Tools used:
 
 
-
-
-
-
+## SQL-based Database
+## Tools used:
