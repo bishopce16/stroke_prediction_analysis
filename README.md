@@ -99,7 +99,15 @@ The csv dataset will be read in as a Pandas dataframe and will be used for the m
 ## Machine Learning Model
 
 See the [gradient_boosting_model.ipynb](https://github.com/bishopce16/stroke_prediction_analysis/blob/main/Machine_Learning/gradient_boosting_model.ipynb) file in the [machine_learning](https://github.com/bishopce16/stroke_prediction_analysis/tree/main/Machine_Learning) folder for a description of data preprocessing, feature engineering, feature selection, data splitting for training/testing of model, and gradient boosting model creation.  
-    
+
+##  Database 
+
+Create a sql table containing all columns from the csv dataset
+
+
+<img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Stroke-analysis%20table.png" width="50%" height="10%">
+
+
 ## Story & Dashboard 
 
 We will be utilizing Tableau Public to create a story-based dashboard in combination with an interactive dashboard. 
