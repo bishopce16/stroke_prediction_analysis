@@ -183,3 +183,7 @@ Below are portions of the resulting tables
 
 
 # Segment 4
+
+Final Presentation
+
+[Stroke Prediction Analysis Dashboard Link](https://public.tableau.com/views/StrokePredictionInteractiveDashboard/StrokePredictionInteractiveDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
