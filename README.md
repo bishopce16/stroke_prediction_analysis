@@ -173,7 +173,13 @@ Finalized the Dashboard/Story and added Exploratory Analysis and Machine Learnin
 
 ## Database
 
-SQL Script [ERD_DB_creation.sql](https://github.com/bishopce16/stroke_prediction_analysis/tree/main/Database)
+SQL Script tables [ERD_DB_creation.sql](https://github.com/bishopce16/stroke_prediction_analysis/tree/main/Database)
+
+Below are portions of the resulting tables
+
+<img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Biological_features.png" width="80%" height="25%">
+
+<img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Demographic_features.png" width="80%" height="25%">
 
 
 # Segment 4
