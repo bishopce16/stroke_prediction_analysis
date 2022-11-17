@@ -33,13 +33,13 @@ Tools: Jupyter Notebook, Visual Studio Code, Python, Pandas, Numpy, Seaborn, Mat
 Jupyter Notebook, along with Python's Pandas, Numpy, and seaborn libraries will be used to clean the data and perform an exploratory/statistical analysis. 
 
 ### Database Storage
-Data will be stored in a PostgreSQL database, and a Tableau dashboard will be created to visualize and present data/findings.
+Data will be stored and queried from in a PostgreSQL database.
 
 ### Machine Learning
 Python's scikit-learn will be employed to create a supervised machine learning binary classification model using the stroke patient data csv file. The goal is to create a model that is able to determine whether or not a patient is at a high risk of having a stroke based on various characteristics of the patient.
 
 ### Dashboard
-Our dashboard will be hosted on Tableau Public software, to create a fully functioning and interactive dashboard and story. 
+Our dashboard will be hosted on Tableau Public software, to create a fully functioning and interactive dashboard and story to visualize and present data/findings. 
 
 [Stroke Prediction Analysis Dashboard Link](https://public.tableau.com/views/StrokePredictionInteractiveDashboard/StrokePredictionInteractiveDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
