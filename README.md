@@ -81,12 +81,11 @@ Our dashboard will be hosted on Tableau Public software, to create a fully funct
 ---
 
 ## Database Integration 
-Sample data that mimics the expected final database structure or schema. <br/>
-SQL steps:
-1.	Parse main csv dataframe into 3+ smaller dataframes
-2.	use the Pandas to_csv() method to export new dataframes into csv files.
-3.	import all csv's into pgAdmin
-4.	assign primary and foreign keys to columns for each table.
+Plan for storing data in a PostgreSQL database: <br/>
+
+1. Create a table in pgAdmin4 for which the csv file will be uploaded into.
+2. Create two other tables from the main table, one for biological characteristics of patients, and one for demographic.
+3. Perform queries to gather statistical insight on the data.
 
 ---
 
