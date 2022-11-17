@@ -1,6 +1,6 @@
 # Stroke Prediction Analysis
 
-In this project, a dataset containing 11 clinical features for patients that classifies whether or not they have had a stroke will be analyzed. The purpose of this project is to derive insight on characteristics and statistics regarding these patients and to see which factors influence whether or not a patient has had a stroke. 
+In this project, a dataset containing 11 clinical features for patients that classifies whether or not they have had a stroke will be analyzed. The purpose of this project is to derive insight on characteristics and statistics regarding these patients, to create a machine learning model that can determine whether a patient is at high risk of having a stroke, and determine which factors influence whether a patient has had a stroke.
 
 
 <img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/READMe%20Backround%20Image.png"  width="75%" height="25%">
