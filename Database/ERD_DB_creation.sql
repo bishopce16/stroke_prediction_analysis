@@ -1,4 +1,3 @@
-
 BEGIN;
 
 CREATE TABLE Stroke_analysis (
@@ -14,7 +13,7 @@ CREATE TABLE Stroke_analysis (
 	bmi VARCHAR(10), 
 	smoking_status VARCHAR(20), 
 	stroke INT 
-);
+	);
 
 CREATE TABLE Demographic_features (
 	id INT PRIMARY KEY,
@@ -38,39 +37,18 @@ CREATE TABLE Biological_features (
 	stroke INT
 	);
 
-ALTER TABLE public.stroke_data
-    ADD FOREIGN KEY (gender)
-    REFERENCES public.gender (index)
+
+ALTER TABLE Demographic_features
+    ADD FOREIGN KEY (stroke_id)
+    REFERENCES stroke_analysis.id (index)
     NOT VALID;
 
 
-ALTER TABLE public.stroke_data
-    ADD FOREIGN KEY (heart_disease)
-    REFERENCES public.heart_disease (index)
+ALTER TABLE Biological_features
+    ADD FOREIGN KEY (stroke_id)
+    REFERENCES stroke_analysis.id (index)
     NOT VALID;
 
 
-ALTER TABLE public.stroke_data
-    ADD FOREIGN KEY (ever_married)
-    REFERENCES public.ever_married (index)
-    NOT VALID;
-
-
-ALTER TABLE public.stroke_data
-    ADD FOREIGN KEY (work_type)
-    REFERENCES public.work_type (index)
-    NOT VALID;
-
-
-ALTER TABLE public.stroke_data
-    ADD FOREIGN KEY ("Residence_type")
-    REFERENCES public."Residence_type" (index)
-    NOT VALID;
-
-
-ALTER TABLE public.stroke_data
-    ADD FOREIGN KEY (smoking_status)
-    REFERENCES public.smoking_status (index)
-    NOT VALID;
 
 END;
