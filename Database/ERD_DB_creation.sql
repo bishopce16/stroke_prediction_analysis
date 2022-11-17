@@ -38,7 +38,7 @@ CREATE TABLE Biological_features (
 	);
 
 
-ALTER TABLE Demographic_features
+ALTER TABLE public.Demographic_features
     ADD FOREIGN KEY (stroke_id)
     REFERENCES stroke_analysis.id (index)
     NOT VALID;
