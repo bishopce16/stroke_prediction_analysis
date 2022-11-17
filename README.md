@@ -107,7 +107,7 @@ The csv file was imported into a postgreSQL database as a table using the follow
 
 Below is a portion of the resulting table:<br/>
 
-<img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Stroke-analysis%20table.png" width="50%" height="10%">
+<img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Stroke-analysis%20table.png" width="60%" height="15%">
 
 
 ## Story & Dashboard 
