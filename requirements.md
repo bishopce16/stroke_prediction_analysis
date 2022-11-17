@@ -43,3 +43,4 @@ sklearn.metrics.classification_report<br/>
 
 ## SQL-based Database
 ###  **Tools used**:
+PostgreSQL 12.8, pgAdmin 4, (AWS) sqlalchemy and psycopg2
