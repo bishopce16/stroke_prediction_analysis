@@ -173,6 +173,7 @@ Finalized the Dashboard/Story and added Exploratory Analysis and Machine Learnin
 
 ## Database
 
+SQL Script [ERD_DB_creation.sql](https://github.com/bishopce16/stroke_prediction_analysis/tree/main/Database)
 
 
 # Segment 4
