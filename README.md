@@ -102,8 +102,11 @@ See the [gradient_boosting_model.ipynb](https://github.com/bishopce16/stroke_pre
 
 ##  Database 
 
-Create a sql table containing all columns from the csv dataset
+The csv file was imported into a postgreSQL database as a table using the following SQL query:<br/>
 
+![table_query](./images/csv_to_database.png)<br/>
+
+Below is a portion of the resulting table:<br/>
 
 <img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Stroke-analysis%20table.png" width="50%" height="10%">
 
