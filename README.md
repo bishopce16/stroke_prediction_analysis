@@ -172,3 +172,8 @@ Finalized the Dashboard/Story and added Exploratory Analysis and Machine Learnin
 
 <img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Stroke%20Prediction%20Interactive%20Dashboard%20Tableau%20Finalized.png"  width="80%" height="25%">
 
+## Database
+
+
+
+# Segment 4
