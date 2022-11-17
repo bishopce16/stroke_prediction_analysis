@@ -1,6 +1,4 @@
-BEGIN;
-
-CREATE TABLE Stroke_analysis (
+CREATE TABLE stroke_analysis (
 	id INT PRIMARY KEY,
 	gender VARCHAR(6),
 	age NUMERIC,
@@ -14,41 +12,31 @@ CREATE TABLE Stroke_analysis (
 	smoking_status VARCHAR(20), 
 	stroke INT 
 	);
+	
+SELECT * FROM stroke_analysis;
 
-CREATE TABLE Demographic_features (
-	id INT PRIMARY KEY,
-	gender VARCHAR(6),
-	age NUMERIC,
-	ever_married VARCHAR(3),
-	work_type VARCHAR(20),
-	residence_type VARCHAR(10),
-	stroke INT 
-	);
+CREATE TABLE demographic_features 
+	AS (SELECT id, gender, age, ever_married, work_type, residence_type, stroke
+	   		FROM stroke_analysis
+);
  
-CREATE TABLE Biological_features (
-	id INT PRIMARY KEY,
-	gender VARCHAR(6),
-	age NUMERIC,
-	hypertension INT,
-	heart_disease INT,
-	avg_glucose_level NUMERIC,
-	bmi VARCHAR(10),
-	smoking_status VARCHAR(20),
-	stroke INT
-	);
+SELECT * FROM demographic_features;
 
 
-ALTER TABLE public.Demographic_features
+CREATE TABLE biological_features 
+	AS (SELECT id, gender, age, hypertension, heart_disease, avg_glucose_level, smoking_status, stroke
+	   		FROM stroke_analysis
+);
+
+SELECT * FROM biological_features;
+
+ALTER TABLE demographic_features
     ADD FOREIGN KEY (stroke_id)
     REFERENCES stroke_analysis.id (index)
     NOT VALID;
 
 
-ALTER TABLE Biological_features
+ALTER TABLE biological_features
     ADD FOREIGN KEY (stroke_id)
     REFERENCES stroke_analysis.id (index)
     NOT VALID;
-
-
-
-END;
