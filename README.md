@@ -145,7 +145,7 @@ This dashboard is fully functional with a Gender & Work Type bar chart that iden
 
 See the [gradient_boosting_model.ipynb](https://github.com/bishopce16/stroke_prediction_analysis/blob/main/Machine_Learning/gradient_boosting_model.ipynb) file in the [machine_learning](https://github.com/bishopce16/stroke_prediction_analysis/tree/main/Machine_Learning) folder for optimization methods used for the model, results after optimization, determination of feature importances, and conclusion of the machine learning analysis.
 
-## Dashboard/Story 
+## Story & Dashboard 
 
 Finalized the Dashboard/Story and added Exploratory Analysis and Machine Learning to show importance within the Tableau story. 
 
