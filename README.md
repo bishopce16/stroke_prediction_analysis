@@ -192,4 +192,4 @@ Demographic Features Table:
 
 Final Presentation
 
-[Stroke Prediction Analysis Dashboard Link](https://public.tableau.com/views/StrokePredictionInteractiveDashboard/StrokePredictionInteractiveDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+[Link to Presentation on Google Slides](https://docs.google.com/presentation/d/1cDEaOqquFxIjPL7FS63isOqBU7swg3fR8Z7BzpkdH48/edit?usp=sharing)
