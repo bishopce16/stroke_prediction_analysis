@@ -177,8 +177,12 @@ SQL Script tables [ERD_DB_creation.sql](https://github.com/bishopce16/stroke_pre
 
 Below are portions of the resulting tables
 
+
+Biological Features Table
 <img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Biological_features.png" width="80%" height="25%">
 
+
+Demographic Features Table
 <img src="https://github.com/bishopce16/stroke_prediction_analysis/blob/main/images/Demographic_features.png" width="80%" height="25%">
 
 
